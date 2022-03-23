@@ -1,3 +1,4 @@
+
 body{
 background-color: black;
 
@@ -16,12 +17,6 @@ header{
   margin-right: auto;
   text-align: center;
   margin-top: 150px;
-
-}
-
-.jumbotron {
-  background-color: black;
-  color: white;
 }
 
 .container {
@@ -139,3 +134,9 @@ a:active {
   width: 75%;
   height: 75%;
 }
+
+@media only screen and (max-width: 620px) {
+ /* For mobile phones:*/
+ .container, .vcontainer, .artwork, .contain, header {
+   width: 100%;
+ }
