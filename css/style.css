@@ -1,0 +1,141 @@
+body{
+background-color: black;
+
+}
+
+p{
+  color: #dedede;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+header{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+.jumbotron {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  margin-top: 30px;
+  width:50%;
+}
+
+.vcontainer {
+  position: relative;
+  overflow: hidden;
+  width:100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.artwork {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 100%;
+}
+
+.navbar {
+  background-color: black !important;
+}
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+/* visited link */
+a:visited {
+  color: white;
+}
+/* mouse over link */
+a:hover {
+  color: lightblue;
+}
+/* selected link */
+a:active {
+  color: orange;
+}
+
+.fakeimg {
+  height: 200px;
+  background: #aaa;
+  margin: 20px;
+}
+
+.contain {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  /* background-color: #4C4C4C; */
+}
+
+.contain:hover .overlay {
+  opacity: 1;
+}
+
+.otext {
+  color: #FF9800;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.otext2 {
+  color: #A0E03A;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.otext3 {
+  color: #00ffff;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 75%;
+  height: 75%;
+}
